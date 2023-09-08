@@ -1,0 +1,99 @@
+html{
+    height: 100%;
+    background-image: linear-gradient( -45deg, rgb(231, 219, 88),  rgb(108, 108, 245));
+}
+
+body{
+    font-family: 'Belanosima', sans-serif;
+}
+
+.weather{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    width: 60%;
+    height: 80vh;
+    background-color:  rgb(236, 236, 232);
+    margin-top: 10vh;
+    margin-left: 20%;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 150, 0.8);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 38px;
+    margin: 70px 0px 50px 0px;
+    padding: 5px;
+    border-bottom: 1px solid;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+input{
+    padding: 10px;
+}
+
+button{
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 10px;
+    background-color: cadetblue;
+}
+
+button:hover{
+    background-color: green;
+}
+
+.displayWeather{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.cardTitle{
+    font-size: 20px;
+    margin: 20px 0px 5px 0px;
+}
+
+.weatherDetails{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.cardSubtitle{
+    margin-bottom: 20px;
+}
+
+.weatherDetails h1{
+    padding: 0px 10px 0px 0px;
+    border-right: 3px solid black;
+}
+
+.weather-description{
+    padding-left: 4px;
+    border-left: 1px solid;
+}
+
+.additionalData{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-weight: 100;
+}
+
